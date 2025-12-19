@@ -6,8 +6,8 @@ import folium
 from streamlit_folium import st_folium
 import plotly.express as px
 
-path1 = "./Data/Loppuprojekti_Sijainti.csv"
-path2 = "./Data/Loppuprojekti_Kiihtyvyys.csv"
+path1 = "https://raw.githubusercontent.com/t2hasa05/Fysiikka_loppuprojekti/refs/heads/main/Data/Loppuprojekti_Sijainti.csv"
+path2 = "https://raw.githubusercontent.com/t2hasa05/Fysiikka_loppuprojekti/refs/heads/main/Data/Loppuprojekti_Kiihtyvyys.csv"
 df_s = pd.read_csv(path1)
 df_k = pd.read_csv(path2)
 
